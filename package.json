@@ -1,5 +1,5 @@
 {
-  "name": "task",
+  "name": "task-1",
   "version": "1.0.0",
   "main": "LRUcache.js",
   "type": "module",
