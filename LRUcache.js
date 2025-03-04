@@ -87,7 +87,7 @@ class TimedCacheClass {
 const timedCache = new TimedCacheClass(5000) // 5 seconds expiration
 timedCache.set('user', { name: 'Alice' })
 
-//setTimeout(() => console.log(timedCache.get('user')), 3000) // Should return user data
-//setTimeout(() => console.log(timedCache.get('user')), 6000) // Should return null
+setTimeout(() => console.log(timedCache.get('user')), 3000) // Should return user data
+setTimeout(() => console.log(timedCache.get('user')), 6000) // Should return null
 
 export { LRUCache };
